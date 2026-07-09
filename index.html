@@ -4,6 +4,151 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Price Chart</title>
+        <link rel="stylesheet" href="./styles/style.css" />
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#">ChatGPT</a>
+                </div>
+
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that's right for you.</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="pricing">
+                <div class="container">
+                    <div class="pricing-grid">
+                        <!-- Basic Plan -->
+                        <article class="pricing-card">
+                            <h2>Basic</h2>
+                            <p class="price">$9<span>/month</span></p>
+
+                            <ul class="features">
+                                <li>✔ Core model</li>
+                                <li>✔ Limited messages and uploads</li>
+                                <li>✔ Limited image creation</li>
+                            </ul>
+
+                            <a href="#" class="btn">Get Started</a>
+                        </article>
+
+                        <!-- Pro Plan -->
+                        <article class="pricing-card featured">
+                            <span class="badge">Most Popular</span>
+
+                            <h2>Pro</h2>
+                            <p class="price">$29<span>/month</span></p>
+
+                            <ul class="features">
+                                <li>✔ Everything in Basic</li>
+                                <li>✔ Advanced Features</li>
+                                <li>✔ Priority Support</li>
+                            </ul>
+
+                            <a href="#" class="btn">Choose Pro</a>
+                        </article>
+
+                        <!-- Enterprise Plan -->
+                        <article class="pricing-card">
+                            <h2>Enterprise</h2>
+                            <p class="price">$99<span>/month</span></p>
+
+                            <ul class="features">
+                                <li>✔ Unlimited Access</li>
+                                <li>✔ Dedicated Support</li>
+                                <li>✔ Custom Integrations</li>
+                            </ul>
+
+                            <a href="#" class="btn">Contact Sales</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="comparison">
+                <h2>Compare Plans</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Basic</th>
+                            <th>Pro</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Price</td>
+                            <td>$9/mo</td>
+                            <td>$29/mo</td>
+                            <td>$99/mo</td>
+                        </tr>
+
+                        <tr>
+                            <td>Projects</td>
+                            <td>5</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+
+                        <tr>
+                            <td>Storage</td>
+                            <td>10 GB</td>
+                            <td>100 GB</td>
+                            <td>1 TB</td>
+                        </tr>
+
+                        <tr>
+                            <td>Priority Support</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+
+                        <tr>
+                            <td>Analytics</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+
+                        <tr>
+                            <td>Custom Integrations</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dedicated Account Manager</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <div class="sticky-bar">
+            <p>Need help choosing a plan?</p>
+            <button>Contact Us</button>
+        </div>
+    </body>
 </html>
