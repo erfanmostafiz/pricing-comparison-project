@@ -14,13 +14,25 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background-color: rgb(24, 24, 23);
+    background-color: rgb(86, 106, 136);
+}
+
+.logo p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.logo img {
+    width: 35px;
+    height: auto;
 }
 
 .logo {
-}
-
-.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
 }
 
 .menu-items ul {
@@ -48,12 +60,12 @@ nav ul li a:hover {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .logo a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .pricing-card {
